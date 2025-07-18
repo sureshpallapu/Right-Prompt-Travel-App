@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Right Prompt Travel App">7195cdb983766e104ce4b329feaad338</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1804233_right_pr_right_prompt_travel_details">assigned_toISEMPTY^assignment_groupISEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>Unassigned Bookings</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Unassigned Bookings</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1804233_right_pr_right_prompt_travel_details</name>
+        <order>600</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-18 05:55:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59dd057583b66e104ce4b329feaad3b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Unassigned Bookings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sys_app_module_59dd057583b66e104ce4b329feaad3b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-18 06:59:07</sys_updated_on>
+        <timeline_page/>
+        <title>Unassigned Bookings</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
