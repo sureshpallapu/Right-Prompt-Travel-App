@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">eaff053983b66e104ce4b329feaad319</canvas>
+        <component display_value="Column">2bd5dc19a7ad083941b7c992a966dd78</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showXGrid":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"bar","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"allowRealTime":false,"allowTotalValue":false,"indicatorType":"2","isScriptedIndicator":false,"label":"Average incident reassignment","sourceType":"indicator","uuid":{"indicator":"ab65497447a5311084f68dcb416d437d","breakdowns":[]},"preferredVisualizations":["18ac962264404bcc0039359d184b15f3"],"id":"aW5kaWNhdG9yYWI2NTQ5NzQ0N2E1MzExMDg0ZjY4ZGNiNDE2ZDQzN2QxNjk4NjUwNzQ2MTQy","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Average incident reassignment","showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"metrics":[{"dataSource":"aW5kaWNhdG9yYWI2NTQ5NzQ0N2E1MzExMDg0ZjY4ZGNiNDE2ZDQzN2QxNjk4NjUwNzQ2MTQy","id":"YVc1a2FXTmhkRzl5WVdJMk5UUTVOelEwTjJFMU16RXhNRGcwWmpZNFpHTmlOREUyWkRRek4yUXhOams0TmpVd056UTJNVFF5MTY5ODY1MDc0NzAzNA==","aggregateIndicator":"587fad00eb31020065deac6aa206fea5","frequency":40,"numberFormat":{"customFormat":false},"axisId":"primary","frequencyInterval":"MONTH_PLUS"}],"sortBy":null,"sortByOrder":null,"trendBy":{"trendByFrequency":"date","trendByFields":[{"field":"anything","metric":"YVc1a2FXTmhkRzl5WVdJMk5UUTVOelEwTjJFMU16RXhNRGcwWmpZNFpHTmlOREUyWkRRek4yUXhOams0TmpVd056UTJNVFF5MTY5ODY1MDc0NzAzNA=="}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":false,"filterConfigurations":[],"contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":12,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":"M","dateFormat":"default","noDebounce":"","componentId":"22d2feir","description":"Average number of time incidents were reassigned."}</component_props>
+        <h>12</h>
+        <name>Average incident reassignment</name>
+        <stored_component display_value="Average incident reassignment">48372404c35e3110458f1fec5440dd1a</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-18 06:16:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b631d3d83b66e104ce4b329feaad329</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Average incident reassignment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>par_dashboard_widget_3b631d3d83b66e104ce4b329feaad329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-18 06:19:28</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props/>
+        <x>0</x>
+        <y>27</y>
+    </par_dashboard_widget>
+</record_update>
