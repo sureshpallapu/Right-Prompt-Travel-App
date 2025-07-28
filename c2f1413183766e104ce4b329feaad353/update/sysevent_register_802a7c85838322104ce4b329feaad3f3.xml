@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description/>
+        <event_name>x_1804233_right_pr.assigned_to</event_name>
+        <fired_by/>
+        <priority>100</priority>
+        <queue/>
+        <suffix>assigned_to</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 06:48:16</sys_created_on>
+        <sys_id>802a7c85838322104ce4b329feaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1804233_right_pr.assigned_to</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sysevent_register_802a7c85838322104ce4b329feaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 06:48:16</sys_updated_on>
+        <table>x_1804233_right_pr_right_prompt_travel_details</table>
+    </sysevent_register>
+</record_update>
