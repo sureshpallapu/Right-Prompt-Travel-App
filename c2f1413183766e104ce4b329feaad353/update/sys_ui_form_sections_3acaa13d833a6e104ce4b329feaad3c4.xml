@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3acaa13d833a6e104ce4b329feaad3c4" sys_domain="global" table="x_1804233_right_pr_right_prompt_travel_details" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 07:58:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83cae13d833a6e104ce4b329feaad31f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1804233_right_pr_right_prompt_travel_details" name="x_1804233_right_pr_right_prompt_travel_details" sys_domain="global" view="7f5925b9833a6e104ce4b329feaad375">3acaa13d833a6e104ce4b329feaad3c4</sys_ui_form>
+            <sys_ui_section caption="x_1804233_right_pr_right_prompt_travel_d" display_value="x_1804233_right_pr_right_prompt_travel_d" name="x_1804233_right_pr_right_prompt_travel_details" sys_domain="global" view="7f5925b9833a6e104ce4b329feaad375">b35925b9833a6e104ce4b329feaad3ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 07:58:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 07:58:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8fcae13d833a6e104ce4b329feaad31f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1804233_right_pr_right_prompt_travel_details" name="x_1804233_right_pr_right_prompt_travel_details" sys_domain="global" view="7f5925b9833a6e104ce4b329feaad375">3acaa13d833a6e104ce4b329feaad3c4</sys_ui_form>
+            <sys_ui_section caption="Descriptions" display_value="Descriptions" name="x_1804233_right_pr_right_prompt_travel_details" sys_domain="global" view="7f5925b9833a6e104ce4b329feaad375">3acaa13d833a6e104ce4b329feaad3c2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 07:58:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 07:58:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7cae13d833a6e104ce4b329feaad323</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1804233_right_pr_right_prompt_travel_details" name="x_1804233_right_pr_right_prompt_travel_details" sys_domain="global" view="7f5925b9833a6e104ce4b329feaad375">3acaa13d833a6e104ce4b329feaad3c4</sys_ui_form>
+            <sys_ui_section caption="Assignments" display_value="Assignments" name="x_1804233_right_pr_right_prompt_travel_details" sys_domain="global" view="7f5925b9833a6e104ce4b329feaad375">7acaa13d833a6e104ce4b329feaad3c3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 07:58:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-29 07:32:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f45ec29d830f62104ce4b329feaad30a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1804233_right_pr_right_prompt_travel_details" name="x_1804233_right_pr_right_prompt_travel_details" sys_domain="global" view="7f5925b9833a6e104ce4b329feaad375">3acaa13d833a6e104ce4b329feaad3c4</sys_ui_form>
+            <sys_ui_section caption="AuditDetails" display_value="AuditDetails" name="x_1804233_right_pr_right_prompt_travel_details" sys_domain="global" view="7f5925b9833a6e104ce4b329feaad375">fc5ec29d830f62104ce4b329feaad306</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-29 07:32:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1804233_right_pr_right_prompt_travel_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 07:58:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3acaa13d833a6e104ce4b329feaad3c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1804233_right_pr_right_prompt_travel_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3acaa13d833a6e104ce4b329feaad3c4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 07:58:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="rptview" name="rptview">7f5925b9833a6e104ce4b329feaad375</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
