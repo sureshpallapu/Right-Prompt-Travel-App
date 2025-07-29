@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1804233_right_pr_right_prompt_travel_details" version="2" view="rptview">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Right Prompt Travel Details - rptview" name="x_1804233_right_pr_right_prompt_travel_details" related_list="NULL" sys_domain="global" view="7f5925b9833a6e104ce4b329feaad375">b21a8ed5830f62104ce4b329feaad3e9</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:4778ce95830f62104ce4b329feaad37d</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-29 07:14:09</sys_created_on>
+            <sys_id>fe1a8ed5830f62104ce4b329feaad3ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-29 07:14:09</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Right Prompt Travel Details - rptview" name="x_1804233_right_pr_right_prompt_travel_details" related_list="NULL" sys_domain="global" view="7f5925b9833a6e104ce4b329feaad375">b21a8ed5830f62104ce4b329feaad3e9</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-29 07:14:09</sys_created_on>
+            <sys_id>3a1a8ed5830f62104ce4b329feaad3eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-29 07:14:09</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Right Prompt Travel Details - rptview" name="x_1804233_right_pr_right_prompt_travel_details" related_list="NULL" sys_domain="global" view="7f5925b9833a6e104ce4b329feaad375">b21a8ed5830f62104ce4b329feaad3e9</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-29 07:14:09</sys_created_on>
+            <sys_id>3e1a8ed5830f62104ce4b329feaad3eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-29 07:14:09</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Right Prompt Travel Details - rptview</calculated_name>
+            <filter/>
+            <name>x_1804233_right_pr_right_prompt_travel_details</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-29 07:14:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b21a8ed5830f62104ce4b329feaad3e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Right Prompt Travel Details - rptview</sys_name>
+            <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+            <sys_update_name>sys_ui_related_x_1804233_right_pr_right_prompt_travel_details_rptview</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-29 07:14:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="rptview" name="rptview">7f5925b9833a6e104ce4b329feaad375</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
