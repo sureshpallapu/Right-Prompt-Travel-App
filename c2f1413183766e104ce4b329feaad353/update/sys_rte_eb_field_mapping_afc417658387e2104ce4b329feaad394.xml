@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="Short description">e567c3ed8307e2104ce4b329feaad3b3</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-30 07:19:17</sys_created_on>
+        <sys_id>afc417658387e2104ce4b329feaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="RP ETL Defination">06568b618347e2104ce4b329feaad34f</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="Import To temp">57c313258387e2104ce4b329feaad317</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_afc417658387e2104ce4b329feaad394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-30 07:19:17</sys_updated_on>
+        <target_sys_rte_eb_field display_value="Short description">3ac70be18347e2104ce4b329feaad345</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>
