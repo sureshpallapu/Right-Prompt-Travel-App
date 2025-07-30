@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="RP Transform Map">81f932618307e2104ce4b329feaad3e8</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+    // Split the caller's full name (e.g., "John Smith")
+    var fullName = source.u_caller.split(" ");
+    
+    // Get the first name from the array
+    var firstName = fullName[0];
+    
+    // Return the first name to be placed in the target field
+    return firstName;
+
+})(source);
+]]></source_script>
+        <source_table>x_1804233_right_pr_rp_import_table</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-30 05:31:31</sys_created_on>
+        <sys_id>ff0bbaa18307e2104ce4b329feaad3e9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sys_transform_entry_ff0bbaa18307e2104ce4b329feaad3e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-30 06:05:52</sys_updated_on>
+        <target_field>first_name</target_field>
+        <target_table>x_1804233_right_pr_right_prompt_travel_details</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>
