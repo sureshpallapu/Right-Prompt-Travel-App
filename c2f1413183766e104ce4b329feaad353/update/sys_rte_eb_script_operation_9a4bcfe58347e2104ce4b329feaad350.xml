@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_script_operation">
+    <sys_rte_eb_script_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Get First Name </name>
+        <operation_group/>
+        <order>100</order>
+        <script><![CDATA[/* Example Script 
+ (function(batch, output) {
+     for (var i = 0; i < batch.length; i++) {
+ 
+         //step1: access the input variables
+         var a = batch[i].input; //Value of the source field. 
+ 
+         //step2: Your script/code goes here.
+         var b = a + 1;
+ 
+         //step3: set the output for each elements
+         output[i] = b;
+     }
+ 
+ })(batch, output);
+ */
+ 
+ (function(batch, output) {
+  // add your code here.
+  for (var i = 0; i < batch.length; i++) {
+ 
+         //step1: access the input variables
+         var fullName = batch[i].input.split(" "); //Value of the source field. 
+ 
+         //step2: Your script/code goes here.
+         var firstName = fullName[0];
+ 
+         //step3: set the output for each elements
+         output[i] = fullName[0];
+     }
+  
+ })(batch, output);]]></script>
+        <source_sys_rte_eb_field display_value="Caller">f6c783e18347e2104ce4b329feaad378</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-30 07:14:15</sys_created_on>
+        <sys_id>9a4bcfe58347e2104ce4b329feaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get First Name </sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="RP ETL Defination">06568b618347e2104ce4b329feaad34f</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Temp">c197c3e18347e2104ce4b329feaad3f0</sys_rte_eb_entity>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sys_rte_eb_script_operation_9a4bcfe58347e2104ce4b329feaad350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-30 07:14:15</sys_updated_on>
+        <target_sys_rte_eb_field display_value="FirstName">fb6847258347e2104ce4b329feaad366</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_script_operation>
+</record_update>
