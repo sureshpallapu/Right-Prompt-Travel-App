@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_parameters">
+    <sys_soap_message_parameters action="INSERT_OR_UPDATE">
+        <name>insert.close_code</name>
+        <soap_function display_value="insert">146a1dd2830ba6104ce4b329feaad383</soap_function>
+        <sys_class_name>sys_soap_message_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 06:23:47</sys_created_on>
+        <sys_id>125b5156830ba6104ce4b329feaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>insert.close_code</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sys_soap_message_parameters_125b5156830ba6104ce4b329feaad322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 06:23:47</sys_updated_on>
+        <type>string</type>
+        <value/>
+    </sys_soap_message_parameters>
+</record_update>
