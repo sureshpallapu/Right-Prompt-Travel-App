@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Create New </name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+
+var requestBody = request.body.data;
+ 
+    var travelGr = new GlideRecord('x_1804233_right_pr_right_prompt_travel_details'); // Replace with actual table name if different
+    travelGr.initialize();
+    travelGr.from = requestBody.from;
+    travelGr.destination = requestBody.destination;
+    travelGr.start_date = requestBody.start_date;
+    travelGr.return_date = requestBody.return_date;
+    travelGr.return = requestBody.return;
+    travelGr.caller = requestBody.caller;
+    var sysId = travelGr.insert();
+ 
+    if (sysId) {
+        response.setStatus(201); // Created
+        return {
+            status: 'success',
+            message: 'Travel request created successfully',
+            sys_id: sysId
+        };
+    } else {
+        response.setStatus(500);
+        return {
+            status: 'error',
+            message: 'Failed to create travel request'
+        };
+    }
+ 
+ 
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1804233_right_pr/create_new_booking</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 07:49:23</sys_created_on>
+        <sys_id>f49c2d1e834ba6104ce4b329feaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New </sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sys_ws_operation_f49c2d1e834ba6104ce4b329feaad3a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 07:49:23</sys_updated_on>
+        <web_service_definition display_value="Create New Booking ">106c291e834ba6104ce4b329feaad393</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
