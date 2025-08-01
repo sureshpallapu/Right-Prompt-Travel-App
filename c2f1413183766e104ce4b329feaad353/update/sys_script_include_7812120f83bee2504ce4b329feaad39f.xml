@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1804233_right_pr.getweatherinfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>getweatherinfo</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var getweatherinfo = Class.create();
+getweatherinfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getDetails: function(cityName) {
+        var city = cityName ? cityName : this.getParameter("sysparm_city");
+        var temp, con, humidity, wind_kph, uv;
+
+        try {
+            var r = new sn_ws.RESTMessageV2('x_1804233_right_pr.Get weather Info', 'Default GET');
+            r.setStringParameterNoEscape('location', city); // fixed: pass the actual city
+            r.setStringParameterNoEscape('key', 'b912559c7d1d4155b9842251231701');
+
+            var response = r.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+
+            if (httpStatus == 200) {
+                var jsonobj = JSON.parse(responseBody);
+
+                // Extract weather data
+                temp = jsonobj.current.temp_c;
+                con = jsonobj.current.condition.text;
+                humidity = jsonobj.current.humidity;
+                wind_kph = jsonobj.current.wind_kph;
+                uv = jsonobj.current.uv;
+            }
+        } catch (ex) {
+            var message = ex.message;
+        }
+
+        return "Weather at " + city +
+               ": Temperature = " + temp + "°C, " +
+               "Condition = " + con + ", " +
+               "Humidity = " + humidity + "%, " +
+               "Wind Speed = " + wind_kph + " kph, " +
+               "UV Index = " + uv;
+    },
+
+    type: 'getweatherinfo'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 08:04:56</sys_created_on>
+        <sys_id>7812120f83bee2504ce4b329feaad39f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>getweatherinfo</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sys_script_include_7812120f83bee2504ce4b329feaad39f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 05:30:59</sys_updated_on>
+    </sys_script_include>
+</record_update>
