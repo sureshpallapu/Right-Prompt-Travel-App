@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>group_variable_set</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 06:30:55</sys_created_on>
+        <sys_id>018934db8347ea104ce4b329feaad33b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Group Variable Set </sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>item_option_new_set_018934db8347ea104ce4b329feaad33b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-04 06:33:43</sys_updated_on>
+        <title>Group Variable Set </title>
+        <type>one_to_one</type>
+        <version>2</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>
