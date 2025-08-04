@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Right Prompt Catlog">84eda8db8307ea104ce4b329feaad399</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 05:40:14</sys_created_on>
+        <sys_id>f92e201f8307ea104ce4b329feaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Right Prompt Catlog.catalog_right_prompt_catlog</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_right_prompt_catlog">bd2e201f8307ea104ce4b329feaad374</sys_portal_page>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_f92e201f8307ea104ce4b329feaad376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 05:40:14</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>
