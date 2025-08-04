@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Add End User To Group ">7b84b8178347ea104ce4b329feaad38a</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 06:41:31</sys_created_on>
+        <sys_id>1b2cf89f8347ea104ce4b329feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Add End User To Group </sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sc_cat_item_category_1b2cf89f8347ea104ce4b329feaad3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 06:41:31</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
