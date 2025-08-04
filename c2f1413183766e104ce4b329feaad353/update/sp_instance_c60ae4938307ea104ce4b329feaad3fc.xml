@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a3b5e8138307ea104ce4b329feaad3b6</sp_column>
+        <sp_widget display_value="Create New Booking ">8a8768d38307ea104ce4b329feaad30e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 05:22:15</sys_created_on>
+        <sys_id>c60ae4938307ea104ce4b329feaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sp_instance_c60ae4938307ea104ce4b329feaad3fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 05:22:15</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=c60ae4938307ea104ce4b329feaad3fc"/>
+</record_update>
