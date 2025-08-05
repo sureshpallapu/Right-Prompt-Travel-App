@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="destination" table="x_1804233_right_pr_right_prompt_travel_details">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-18 07:08:00</sys_created_on>
-        <sys_id>f80f15f983f66e104ce4b329feaad314</sys_id>
         <sys_name>Destination</sys_name>
         <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
         <sys_policy/>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_df_table>false</is_df_table>
+        <is_extendable>false</is_extendable>
+        <label>gfdh</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1804233_right_pr_gfdh</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 14:07:45</sys_created_on>
+        <sys_id>100f1645838b22104ce4b329feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gfdh</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sys_db_object_100f1645838b22104ce4b329feaad333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 14:07:45</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1804233_right_pr.gfdh_user" name="x_1804233_right_pr.gfdh_user">3f2f5e05838b22104ce4b329feaad382</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</application>
+        <file_path/>
+        <instance_id>bb592ba4dbf2b59005ef172913961916</instance_id>
+        <instance_name>dev225567</instance_name>
+        <name>sys_db_object_100f1645838b22104ce4b329feaad333</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>gfdh</label><live_feed_enabled>false</live_feed_enabled><name>x_1804233_right_pr_gfdh</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 14:07:45</sys_created_on><sys_id>100f1645838b22104ce4b329feaad333</sys_id><sys_mod_count>0</sys_mod_count><sys_name>gfdh</sys_name><sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package><sys_policy/><sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope><sys_update_name>sys_db_object_100f1645838b22104ce4b329feaad333</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 14:07:45</sys_updated_on><update_access>false</update_access><user_role display_value="x_1804233_right_pr.gfdh_user" name="x_1804233_right_pr.gfdh_user">3f2f5e05838b22104ce4b329feaad382</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>880990290</payload_hash>
+        <record_name>gfdh</record_name>
+        <reverted_from/>
+        <source>eaf1413183766e104ce4b329feaad357</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 14:07:47</sys_created_on>
+        <sys_id>043f5e45838b22104ce4b329feaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198515c68540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 14:07:47</sys_updated_on>
+        <type>Table</type>
+        <update_guid>083f5e45de8b221038cbd5f5571ba133</update_guid>
+        <update_guid_history>083f5e45de8b221038cbd5f5571ba133:880990290</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 04:39:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>1e4e6fed87b347d883fb3d081c482ac4</sys_id>
+        <sys_metadata>100f1645838b22104ce4b329feaad333</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gfdh</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_scope_delete display_value="">81ef559d199c4dc09e37975f6ab78421</sys_scope_delete>
+        <sys_update_name>sys_db_object_100f1645838b22104ce4b329feaad333</sys_update_name>
+        <sys_update_version display_value="sys_db_object_100f1645838b22104ce4b329feaad333">043f5e45838b22104ce4b329feaad334</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 04:39:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

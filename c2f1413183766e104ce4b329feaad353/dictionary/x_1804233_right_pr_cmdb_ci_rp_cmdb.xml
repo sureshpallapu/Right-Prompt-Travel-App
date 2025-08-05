@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f21f57a183c7e2104ce4b329feaad3e0" extends="cmdb_ci_spkg" label="RP CMDB" max_length="40" name="x_1804233_right_pr_cmdb_ci_rp_cmdb" type="collection">
+        <element label="Name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

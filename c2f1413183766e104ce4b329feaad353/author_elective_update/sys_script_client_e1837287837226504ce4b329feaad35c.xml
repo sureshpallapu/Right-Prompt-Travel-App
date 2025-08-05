@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>caller</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto-Populate Location</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    var ga = new GlideAjax('GetUserLocation');
+    ga.addParam('sysparm_name', 'getLocation');
+    ga.addParam('sysparm_user_id', newValue);
+    ga.getXMLAnswer(function(response) {
+        if (response) {
+            g_form.setValue('location', response);
+        } else {
+            g_form.clearValue('location');
+        }
+    });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 10:30:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1837287837226504ce4b329feaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto-Populate Location</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sys_script_client_e1837287837226504ce4b329feaad35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 10:30:13</sys_updated_on>
+        <table>x_1804233_right_pr_right_prompt_travel_details</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</application>
+        <file_path/>
+        <instance_id>bb592ba4dbf2b59005ef172913961916</instance_id>
+        <instance_name>dev225567</instance_name>
+        <name>sys_script_client_e1837287837226504ce4b329feaad35c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;caller&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Auto-Populate Location&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    var ga = new GlideAjax('GetUserLocation');
+    ga.addParam('sysparm_name', 'getLocation');
+    ga.addParam('sysparm_user_id', newValue);
+    ga.getXMLAnswer(function(response) {
+        if (response) {
+            g_form.setValue('location', response);
+        } else {
+            g_form.clearValue('location');
+        }
+    });
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-22 10:30:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e1837287837226504ce4b329feaad35c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto-Populate Location&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr"&gt;c2f1413183766e104ce4b329feaad353&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Right Prompt Travel App"&gt;c2f1413183766e104ce4b329feaad353&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e1837287837226504ce4b329feaad35c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-22 10:30:13&lt;/sys_updated_on&gt;&lt;table&gt;x_1804233_right_pr_right_prompt_travel_details&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1276279597</payload_hash>
+        <record_name>Auto-Populate Location</record_name>
+        <reverted_from/>
+        <source>eaf1413183766e104ce4b329feaad357</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 10:30:13</sys_created_on>
+        <sys_id>3ad33ac3837226504ce4b329feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19831af11ee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 10:30:13</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>3ed33ac304722650966da1e9c639ab4c</update_guid>
+        <update_guid_history>3ed33ac304722650966da1e9c639ab4c:1276279597</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 10:39:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>2c78965f019b4b51908add595f720a19</sys_id>
+        <sys_metadata>e1837287837226504ce4b329feaad35c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto-Populate Location</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_parent display_value="Right Prompt Travel Details">46b6453d83766e104ce4b329feaad364</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_scope_delete display_value="">81ef559d199c4dc09e37975f6ab78421</sys_scope_delete>
+        <sys_update_name>sys_script_client_e1837287837226504ce4b329feaad35c</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e1837287837226504ce4b329feaad35c">3ad33ac3837226504ce4b329feaad34d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 10:39:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

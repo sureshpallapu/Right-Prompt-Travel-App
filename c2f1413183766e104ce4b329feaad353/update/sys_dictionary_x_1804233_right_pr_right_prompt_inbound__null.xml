@@ -47,12 +47,11 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-01 07:21:47</sys_created_on>
-        <sys_id>7b98e9d6834ba6104ce4b329feaad3c9</sys_id>
         <sys_name>x_1804233_right_pr_right_prompt_inbound_</sys_name>
         <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
         <sys_policy/>
         <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
-        <sys_update_name>sys_dictionary_x_1804233_right_pr_right_prompt_inbound__null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1804233_right_pr_right_prompt_inbound__NULL</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-01 07:21:47</sys_updated_on>
         <table_reference>false</table_reference>

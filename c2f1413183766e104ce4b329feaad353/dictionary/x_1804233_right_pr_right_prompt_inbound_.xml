@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ff98e9d6834ba6104ce4b329feaad3c6" extends="sys_import_set_row" label="Right Prompt Inbound Sebservice" max_length="40" name="x_1804233_right_pr_right_prompt_inbound_" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_end_date_" label="End Date" max_length="40" name="u_end_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_start_date_" label="Start Date" max_length="40" name="u_start_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_caller" label="Caller" max_length="40" name="u_caller" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_return_" label="Return" max_length="40" name="u_return" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_destination" label="Destination" max_length="40" name="u_destination" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_from" label="From" max_length="40" name="u_from" type="string"/>
+    </element>
+</database>

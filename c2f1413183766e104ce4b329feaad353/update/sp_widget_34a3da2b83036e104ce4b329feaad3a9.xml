@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  $scope.activeTab = 'profile';
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>demo_purpose</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>DEMO Purpose </name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  data.businessProfileWidget = $sp.getWidget('d39df9ef838f2e104ce4b329feaad3d7');
+  data.otherWidget = $sp.getWidget('PUT_OTHER_WIDGET_SYS_ID_HERE');
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 07:42:29</sys_created_on>
+        <sys_id>34a3da2b83036e104ce4b329feaad3a9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>DEMO Purpose </sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sp_widget_34a3da2b83036e104ce4b329feaad3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 09:31:34</sys_updated_on>
+        <template><![CDATA[<div class="tabs-container">
+  <ul class="nav nav-tabs">
+    <li class="nav-item" ng-class="{active: activeTab === 'profile'}">
+      <a class="nav-link" href ng-click="activeTab = 'profile'">Business Profile</a>
+    </li>
+    <li class="nav-item" ng-class="{active: activeTab === 'other'}">
+      <a class="nav-link" href ng-click="activeTab = 'other'">Other Widget</a>
+    </li>
+  </ul>
+
+  <div class="tab-content mt-3">
+    <!-- Business Profile Tab -->
+    <div class="tab-pane" ng-show="activeTab === 'profile'">
+      <sp-widget widget="data.businessProfileWidget"></sp-widget>
+    </div>
+
+    <!-- Other Widget Tab -->
+    <div class="tab-pane" ng-show="activeTab === 'other'">
+      <sp-widget widget="data.otherWidget"></sp-widget>
+    </div>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

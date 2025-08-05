@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>3</order>
+        <semantic_tag/>
+        <size>2</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">4b0e6a6f83836e104ce4b329feaad33b</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 09:37:30</sys_created_on>
+        <sys_id>030e22af83836e104ce4b329feaad3c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sp_column_030e22af83836e104ce4b329feaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 09:38:35</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</application>
+        <file_path/>
+        <instance_id>bb592ba4dbf2b59005ef172913961916</instance_id>
+        <instance_name>dev225567</instance_name>
+        <name>sp_column_030e22af83836e104ce4b329feaad3c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>3</order><semantic_tag/><size>2</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">4b0e6a6f83836e104ce4b329feaad33b</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-05 09:37:30</sys_created_on><sys_id>030e22af83836e104ce4b329feaad3c1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>3</sys_name><sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package><sys_policy/><sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope><sys_update_name>sp_column_030e22af83836e104ce4b329feaad3c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-05 09:38:35</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>637089425</payload_hash>
+        <record_name>3</record_name>
+        <reverted_from/>
+        <source>04d1151f83c7ea104ce4b329feaad3e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 09:38:35</sys_created_on>
+        <sys_id>364ea6af83836e104ce4b329feaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1987998d4510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 09:38:35</sys_updated_on>
+        <type>Column</type>
+        <update_guid>fa4ea6af36836e10bfbb30bc8d64dd5d</update_guid>
+        <update_guid_history>fa4ea6af36836e10bfbb30bc8d64dd5d:637089425,430e22afdb836e10a80f94cd1034bdc2:1291116337</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="3">7d5e2e6f83836e104ce4b329feaad3e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 09:38:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>31e7dcadc7a94b16a0681b8defec4571</sys_id>
+        <sys_metadata>030e22af83836e104ce4b329feaad3c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_scope_delete display_value="">81ef559d199c4dc09e37975f6ab78421</sys_scope_delete>
+        <sys_update_name>sp_column_030e22af83836e104ce4b329feaad3c1</sys_update_name>
+        <sys_update_version display_value="sp_column_030e22af83836e104ce4b329feaad3c1">364ea6af83836e104ce4b329feaad35e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 09:38:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

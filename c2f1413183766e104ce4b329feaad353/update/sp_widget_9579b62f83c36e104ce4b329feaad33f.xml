@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function(spUtil) {
+  /* widget controller */
+  var c = this;
+	c.mapping=[{
+		name:'Business Profile',id:'business_profile_section'
+	},
+	{
+		name:'Financial Profile',id:'financial_profile'
+	}	,{
+		name:'PL(Total Revenue)',id:''
+	},{
+		name:'Banking Statement Analysis',id:'banking__statement__analysis'
+	},{
+		name:'Credit Bureau Check',id:'credit_bureau_check_'
+	},
+	{
+		name:'OEM Dealer',id:'oem_dealer'
+	},
+	{
+		name:'Banking Statement Analysis',id:'qualitative_section'
+	}];
+	c.render=function(res){
+		c.widgetInstance=null;
+		spUtil.get(res.id).then(function(res){
+			c.widgetInstance=res;
+			console.log(c.widgetInstance)
+		})
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>mapping_widget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Mapping Widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 10:27:57</sys_created_on>
+        <sys_id>9579b62f83c36e104ce4b329feaad33f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Mapping Widget</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sp_widget_9579b62f83c36e104ce4b329feaad33f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 11:23:48</sys_updated_on>
+        <template><![CDATA[<div>
+<div ng-repeat='mapping in c.mapping'>
+  <button ng-click='c.render(mapping)'>
+    {{mapping.name}}
+  </button>
+  </div>
+</div>
+
+<div ng-if='c.widgetInstance'>
+  <sp-widget widget="c.widgetInstance"></sp-widget>
+</div>]]></template>
+    </sp_widget>
+</record_update>

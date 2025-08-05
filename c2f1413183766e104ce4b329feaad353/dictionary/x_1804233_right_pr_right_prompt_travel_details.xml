@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="46b6453d83766e104ce4b329feaad364" extends="task" label="Right Prompt Travel Details" max_length="40" name="x_1804233_right_pr_right_prompt_travel_details" type="collection">
+        <element label="Visa Details" max_length="50" name="visa_details" type="string"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Last Name" max_length="255" name="last_name" read_only="true" type="string_full_utf8"/>
+        <element label="Passport Number" max_length="255" name="passport_number" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Return" max_length="40" name="return" type="boolean"/>
+        <element label="Duration" max_length="10" name="duration" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Travel Type" max_length="40" name="travel_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="International" sequence="1" value="international"/>
+                <element inactive_on_update="false" label="Domestic" sequence="2" value="domestic"/>
+            </choice>
+        </element>
+        <element label="Return Date" max_length="40" name="return_date" type="glide_date"/>
+        <element label="First Name" max_length="255" name="first_name" read_only="true" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="From" max_length="32" name="from" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Destination" max_length="32" name="destination" reference="cmn_location" type="reference"/>
+    </element>
+</database>

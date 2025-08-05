@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>oem_dealer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>OEM Dealer</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 06:39:00</sys_created_on>
+        <sys_id>ba154a6383cf2e104ce4b329feaad328</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OEM Dealer</sys_name>
+        <sys_package display_value="Right Prompt Travel App" source="x_1804233_right_pr">c2f1413183766e104ce4b329feaad353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Right Prompt Travel App">c2f1413183766e104ce4b329feaad353</sys_scope>
+        <sys_update_name>sp_widget_ba154a6383cf2e104ce4b329feaad328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 06:43:33</sys_updated_on>
+        <template><![CDATA[<div class="oem-widget-container">
+<!-- Type of Partnership -->
+<div class="field-row">
+<label>Type of Partnership</label>
+<input type="text" value="Distributor" readonly class="form-control" />
+<!-- TODO: Replace static value with API value -->
+</div>
+ 
+  <!-- Tenure -->
+<div class="field-row">
+<label>Tenure (in years)</label>
+<input type="number" value="6" readonly class="form-control" />
+<!-- TODO: Replace static value with API value -->
+<span class="tenure-indicator positive">+ve</span>
+<!-- Use class 'positive' or 'negative' based on logic -->
+</div>
+ 
+  <!-- OEM Authorized -->
+<div class="field-row">
+<label>OEM Authorized</label>
+<input type="text" value="Yes" readonly class="form-control" />
+<!-- TODO: Replace static value with API value -->
+<span class="status-indicator positive">+ve</span>
+<!-- Show 'negative' if not authorized -->
+</div>
+ 
+  <!-- Previous History -->
+<div class="field-row">
+  <label class="field-label">Previous History</label>
+  <input type="checkbox" ng-checked="data.previousHistory" disabled />
+</div>
+
+</div>
+
+ ]]></template>
+    </sp_widget>
+</record_update>
